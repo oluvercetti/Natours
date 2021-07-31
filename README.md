@@ -1,2 +1,2 @@
 # Natours
-Dev version of Natours project
+Master version of Natours project
