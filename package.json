@@ -7,8 +7,5 @@
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "Oluvercetti",
-  "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^5.0.0"
-  }
+  "license": "ISC"
 }
