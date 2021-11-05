@@ -22,11 +22,18 @@
         opacity: 0;
         transform: translate(-50%, -50%) scale(.5);
         transition: all .4s .2s;
+        @include respond(tab-port) {
+            width: 90%;
+            display: block;
+        }
     }
 
     &__left {
         width: 33.33333%;
         display: table-cell;
+        @include respond(tab-port) {
+            width: 50%;
+        }
     }
 
     &__right {
@@ -34,6 +41,9 @@
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
+        @include respond(tab-port) {
+            width: 50%;
+        }
     }
 
     &__img {
@@ -53,6 +63,10 @@
         -moz-hyphens: auto;
         -webkit-hyphens: auto;
         hyphens: auto;
+
+        @include respond(tab-port) {
+            column-count: 1;
+        }
     }
 
 
